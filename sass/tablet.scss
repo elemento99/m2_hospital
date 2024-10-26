@@ -1,0 +1,25 @@
+//===
+// VENDORS
+//===
+@import "vendors/_normalize.css";
+// END VENDORS
+
+//===
+// GLOBALS
+//===
+@import "_typography.scss";
+@import "_base.scss";
+// END GLOBALS
+
+//===
+// MOBILE
+//===
+@import "tablet/_header.scss";
+@import "tablet/_footer.scss";
+// END MOBILE
+
+//===
+// PAGES
+//===
+@import "tablet/pages/_home.scss";
+// END PAGES
