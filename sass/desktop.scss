@@ -7,19 +7,24 @@
 //===
 // GLOBALS
 //===
-@import "_typography.scss";
-@import "_base.scss";
+@import "_typography";
+@import "_base";
 // END GLOBALS
 
 //===
 // desktop
 //===
-@import "desktop/_header.scss";
-@import "desktop/_footer.scss";
+@import "desktop/_header";
+@import "desktop/_footer";
 // END desktop
 
 //===
 // PAGES
 //===
-@import "desktop/pages/home";
+@import "desktop/pages/_home";
+@import "desktop/pages/_team";
+@import "desktop/pages/_contact";
+ 
+
+
 // END PAGES

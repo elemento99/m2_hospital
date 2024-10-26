@@ -7,19 +7,21 @@
 //===
 // GLOBALS
 //===
-@import "_typography.scss";
+@import "_typography";
 @import "_base.scss";
 // END GLOBALS
 
 //===
 // MOBILE
 //===
-@import "tablet/_header.scss";
-@import "tablet/_footer.scss";
+@import "tablet/_header";
+@import "tablet/_footer";
 // END MOBILE
 
 //===
 // PAGES
 //===
-@import "tablet/pages/_home.scss";
+@import "tablet/pages/_home";
+@import "tablet/pages/_team";
+@import "tablet/pages/_contact";
 // END PAGES
