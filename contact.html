@@ -12,7 +12,7 @@
 
 
 
-  
+
 </head>
 
 <body>
@@ -30,15 +30,40 @@
 
     <main>
         <section>
-        <form action="">
-            - Formulario de contacto: Incluye campos para que el usuario ingrese su nombre,
-            correo electrónico, asunto y mensaje. El formulario debe estar correctamente
-            maquetado, pero no requiere funcionalidad backend.
-            <button type="submit"></button>
-        </form>
+            <form class="contactForm" action="">
+                <div class="contactForm__field">
+                    <label for="name" class="contactForm__label">Nombre:</label>
+                    <input type="text" id="name" name="name" class="contactForm__input" required>
+                </div>
 
-    </section>
-    <section>mapa de ubicacion</section></main>
+                <div class="contactForm__field">
+                    <label for="email" class="contactForm__label">Correo electrónico:</label>
+                    <input type="email" id="email" name="email" class="contactForm__input" required>
+                </div>
+
+                <div class="contactForm__field">
+                    <label for="subject" class="contactForm__label">Asunto:</label>
+                    <input type="text" id="subject" name="subject" class="contactForm__input" required>
+                </div>
+
+                <div class="contactForm__field">
+                    <label for="message" class="contactForm__label">Mensaje:</label>
+                    <textarea id="message" name="message" class="contactForm__textarea" required></textarea>
+                </div>
+
+                <button type="submit" class="contactForm__button">Enviar</button>
+            </form>
+
+
+            <section class="contactMap hiddenElement">
+
+                <h3>Mapa de ubicación</h3>
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2614.266408648995!2d-70.62960682531605!3d-32.84929146697638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96881b322efafc75%3A0xc816bbe79fc11df3!2sCalle%20Larga%2C%20Valpara%C3%ADso!5e1!3m2!1ses!2scl!4v1730049335407!5m2!1ses!2scl"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+    </main>
     <footer>
         <footer>
             <div>
@@ -69,5 +94,3 @@
 </body>
 
 </html>
-
-

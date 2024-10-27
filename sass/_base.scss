@@ -1,25 +1,15 @@
-$color1: #00000e;
-$color2: #232949;
-$color3: #545791;
-$color4: #928be3;
-$color5: #ddc5ff;
+$background-color: #ddc5ff;
+$article-background: #928be3;
+$testimonial-background: #928be3;
+$title-color:#00000e;
+$text-color: #00000e;
+$item-background: #4A90E2;
+$item-hover-background: #357ABD;
 
-.color1 {
-    color: $color1;
-}
+body{background-color: $background-color}
 
-.color2 {
-    color: $color2;
-}
-
-.color3 {
-    color: $color3;
-}
-
-.color4 {
-    color: $color4;
-}
-
-.color5 {
-    color: $color5;
+.hiddenElement {
+    @media (max-width: 750px) {
+        display: none;
+    }
 }

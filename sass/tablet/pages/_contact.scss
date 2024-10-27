@@ -1,0 +1,54 @@
+.contactForm {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid $article-background;
+    border-radius: 5px;
+    background-color: $article-background;
+}
+
+.contactForm__field {
+    margin: 15px;
+
+}
+
+.contactForm__label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: $title-color;
+}
+
+.contactForm__input,
+.contactForm__textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid $text-color;
+    border-radius: 4px;
+}
+
+.contactForm__textarea {
+    resize: vertical;
+}
+
+.contactForm__button {
+    padding: 10px 15px;
+    background-color: $item-background;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contactForm__button:hover {
+    background-color: $item-hover-background;
+}
+
+.contactMap{
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid $article-background;
+    border-radius: 5px;
+    background-color: $article-background;
+}

@@ -1,25 +1,23 @@
-@import "/sass/base";
-
-.main__section {
+.home__main__section {
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    align-items: left;
+    justify-content: space-around;
     background-color: $background-color;
     padding: 10px;
 }
 
-.main__section__article {
+.home__main__section__article {
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: $article-background;
     padding: 50px;
-    min-width: 30%;
     border-radius: 20px;
     border: 1px solid #333; 
+
 }
 
-.main__testimonials {
+.home__testimonials {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -30,20 +28,19 @@
     border: 1px solid #333; 
 }
 
-.main__title {
-    font-size: 24px;
-    color: $title-color;
+.home__title {
+    font-size: 1.5rem;
+    color: black;
     margin-bottom: 10px;
 }
 
-.main__text {
+.home__text {
     font-size: 16px;
     color: $text-color;
     line-height: 1.6;
 }
 
-.main__list {
+.home__list {
     list-style-type: none;
     padding: 0;
 }
-
