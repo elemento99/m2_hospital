@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../sass/tablet.scss"],"names":[],"mappings":"AAGQ","file":"tablet.css"}
+{"version":3,"sourceRoot":"","sources":["../../sass/tablet.scss","../../sass/_base.scss"],"names":[],"mappings":"AAGQ;ACGR;EACI,OAPK;;;AAUT;EACI,OAVK;;;AAaT;EACI,OAbK;;;AAgBT;EACI,OAhBK;;;AAmBT;EACI,OAnBK","file":"tablet.css"}

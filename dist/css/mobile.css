@@ -1,1 +1,20 @@
-@import "vendors/_normalize.css";/*# sourceMappingURL=mobile.css.map */
+@import "vendors/_normalize.css";
+.color1 {
+  color: #00000e;
+}
+
+.color2 {
+  color: #232949;
+}
+
+.color3 {
+  color: #545791;
+}
+
+.color4 {
+  color: #928be3;
+}
+
+.color5 {
+  color: #ddc5ff;
+}/*# sourceMappingURL=mobile.css.map */

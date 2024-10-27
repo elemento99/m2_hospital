@@ -1,0 +1,49 @@
+@import "/sass/base";
+
+.main__section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: $background-color;
+    padding: 10px;
+}
+
+.main__section__article {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: $article-background;
+    padding: 50px;
+    min-width: 30%;
+    border-radius: 20px;
+    border: 1px solid #333; 
+}
+
+.main__testimonials {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: $testimonial-background;
+    padding: 50px;
+    min-width: 50%;
+    border-radius: 20px;
+    border: 1px solid #333; 
+}
+
+.main__title {
+    font-size: 24px;
+    color: $title-color;
+    margin-bottom: 10px;
+}
+
+.main__text {
+    font-size: 16px;
+    color: $text-color;
+    line-height: 1.6;
+}
+
+.main__list {
+    list-style-type: none;
+    padding: 0;
+}
+
